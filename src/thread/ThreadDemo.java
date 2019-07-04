@@ -8,7 +8,7 @@ public class ThreadDemo {
 		t1.start();
 		t2.start();
 	}
-}
+} 
 
 class MyThread1 extends Thread {
 	public void run() {
