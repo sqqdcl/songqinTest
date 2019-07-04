@@ -5,7 +5,7 @@ import java.io.IOException;
 /**
  * 使用File创建一个新文件
  * @author Think
- * 
+ * a
  */
 public class CreateNewFileDemo {
 	public static void main(String[] args) throws IOException {
