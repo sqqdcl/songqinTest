@@ -4,6 +4,7 @@ github 提交测试,在其他地方修改了。
 我也修改了，没告诉你
  
    
+<<<<<<< HEAD
 别人修改了 
 
    
@@ -11,4 +12,4 @@ I modify
 
 
 z 修改了
-b xiu gai le 
+b xiu gai le  
