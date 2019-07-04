@@ -3,6 +3,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -25,10 +26,13 @@ public class FileDemo {
 		
 		
 		String a1="bb";
-		List a=new ArrayList();
-		Map b=new HashMap();
+		List<String> a=new ArrayList();
+		Map<String,String> b=new HashMap<String,String>();
 		a.add(a1);
 		a.add(a1);
+		
+		b.put("aa", "aaaa");
+		b.put("aa", "bbb");
 		
 		Set<String> c=new HashSet<String>();
 		c.add(a1);
@@ -44,12 +48,17 @@ public class FileDemo {
 		
 		System.out.println("==="+a.size());
 		for (Object set1 : a) {
-			System.out.println(set1.toString());
+			System.out.println("使用for循环"+set1.toString());
 		}
 		
+		Iterator<String> ita=a.listIterator();
+		while(ita.hasNext()) {
+			System.out.println("使用迭代器="+ita.next());
+		}
 		
-		
-		
+		for (Map.Entry<String, String> map : b.entrySet()) {
+			System.out.println(map.getKey()+map.getValue());
+		}
 		
 		
 	}
