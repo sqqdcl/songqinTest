@@ -8,6 +8,7 @@ public  class Person {
 //		System.out.println("父类的构造函数调用了");
 //		this.age=age;
 //		this.name=name;
+	    System.out.println("dddddd");
 ////	}
 	Person(){
 		System.out.println("父类无参构造函数");
