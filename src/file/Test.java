@@ -14,6 +14,7 @@ public class Test {
 		File dir=new File("a");
 		delete(dir);
 		System.out.println("hello");
+		// 修改了
 	}
 	
 	public static void delete(File file) {
