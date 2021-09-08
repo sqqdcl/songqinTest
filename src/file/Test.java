@@ -13,6 +13,7 @@ public class Test {
 	public static void main(String[] args) {
 		File dir=new File("a");
 		delete(dir);
+		System.out.println("hello");
 	}
 	
 	public static void delete(File file) {
